@@ -18,6 +18,7 @@ pip install jupyter
 
 wget https://archive.apache.org/dist/spark/spark-3.5.3/spark-3.5.3-bin-hadoop3.tgz
 tar xvf spark-3.5.3-bin-hadoop3.tgz
+rm spark-3.5.3-bin-hadoop3.tgz
 
 mkdir -p ~/.jupyter
 cp /home/ubuntu/Spark-Training/conf/jupyter_notebook_config.py ~/.jupyter/
