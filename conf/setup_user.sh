@@ -19,7 +19,7 @@ wget https://archive.apache.org/dist/spark/spark-3.5.3/spark-3.5.3-bin-hadoop3.t
 tar xvf spark-3.5.3-bin-hadoop3.tgz
 
 mkdir -p ~/.jupyter
-cp /home/ubuntu/workshop-template/conf/jupyter_notebook_config.py ~/.jupyter/
+cp /home/ubuntu/Spark-Training/conf/jupyter_notebook_config.py ~/.jupyter/
 
 echo 'export SPARK_HOME=/home/ubuntu/spark-3.5.3-bin-hadoop3' >> /opt/venv/bin/activate
 echo 'export PATH=$SPARK_HOME/bin:$PATH' >> /opt/venv/bin/activate
