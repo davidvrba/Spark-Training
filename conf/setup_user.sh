@@ -4,8 +4,15 @@ pip install --upgrade pip
 
 pip install py4j
 pip install jsonschema
+pip install delta-spark==3.3.1
+pip install numpy==2.1.3
+pip install pandas==2.2.3
+pip install pyarrow==19.0.1
+pip install geopandas==1.0.1
+pip install matplotlib==3.10.1
+pip install scipy==1.15.2
 pip install jupyter
-pip install delta-spark==3.2.1
+
 
 wget https://archive.apache.org/dist/spark/spark-3.5.3/spark-3.5.3-bin-hadoop3.tgz
 tar xvf spark-3.5.3-bin-hadoop3.tgz
