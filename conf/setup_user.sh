@@ -11,6 +11,7 @@ pip install pyarrow==19.0.1
 pip install geopandas==1.0.1
 pip install matplotlib==3.10.1
 pip install scipy==1.15.2
+pip install spark-nlp==6.0.0
 pip install jupyter
 
 
