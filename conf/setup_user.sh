@@ -14,6 +14,8 @@ pip install scipy==1.15.2
 pip install spark-nlp==6.0.0
 pip install textstat==0.7.5
 pip install sentence_transformers==4.1.0
+pip install networkx==3.4.2
+pip install scikit_learn==1.6.1
 pip install jupyter
 
 
